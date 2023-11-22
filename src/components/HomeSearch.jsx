@@ -41,7 +41,7 @@ export default function HomeSearch() {
           onChange={(e) => setInput(e.target.value)}
           className="flex-grow focus:outline-none"
         />
-        <IoMdMic className="text-lg hover:bg-gray-200" />
+        <IoMdMic className="text-2xl hover:bg-gray-200 p-1 rounded-full" />
       </form>
       <div className="flex flex-col space-y-2 sm:space-y-0 sm:space-x-3 justify-center sm:flex-row mt-8 ">
         <button onClick={handleSubmit} className="btn">
